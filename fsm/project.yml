@@ -119,7 +119,7 @@
 
 :files:
   :test:
-    - test/test_leds.c
+    - test/test_fsm.c
 
 # Compilation symbols to be injected into builds
 # See documentation for advanced options:

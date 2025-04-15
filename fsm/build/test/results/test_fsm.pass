@@ -1,0 +1,59 @@
+---
+:source:
+  :file: test/test_fsm.c
+  :dirname: test
+  :basename: test_fsm.c
+:successes:
+- :test: test_FSM_Init
+  :line: 12
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Update_to_Filling_RDWC
+  :line: 27
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Update_to_Filling_TD
+  :line: 36
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Update_to_Alarm_RDWCTimeout
+  :line: 47
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Update_to_Alarm_TDTimeout
+  :line: 56
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Update_to_IDLE_after_Filling_TD
+  :line: 65
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_AlarmState
+  :line: 74
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_Reset
+  :line: 83
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_StateTransition
+  :line: 90
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_GetState_Initial
+  :line: 106
+  :message: ''
+  :unity_test_time: 0
+- :test: test_FSM_GetState_Transitions
+  :line: 111
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 11
+  :passed: 11
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0007220509996841429
